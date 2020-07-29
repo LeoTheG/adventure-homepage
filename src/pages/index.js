@@ -1,18 +1,21 @@
 // import { LogoImage, PlayerImage } from "../components/image"
 
-import { graphql, useStaticQuery } from "gatsby"
-
 import Img from "gatsby-image"
 import Layout from "../components/layout"
-import { Link } from "gatsby"
 import React from "react"
 import SEO from "../components/seo"
+import { graphql } from "gatsby"
 import playerGIF from "../images/audio-editor-info.gif"
 
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
     <h1>who we are</h1>
+    <iframe
+      width="800"
+      height="450"
+      src="https://whimsical.com/embed/2vBUtpfEUq4iKLJsVHNDhE"
+    ></iframe>
     <div
       style={{
         maxWidth: `300px`,
